@@ -9,6 +9,7 @@ Personal Loans Calculator is a csharp web app witch allow you to calculate the a
 ## Appendix
 
 - Personal loans
+- Validation
 - Onion Architecture
 
 
