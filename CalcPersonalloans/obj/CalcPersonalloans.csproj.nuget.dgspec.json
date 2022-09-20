@@ -1,0 +1,125 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\VSCODE\\.NET\\Personalloans\\CalcPersonalloans\\CalcPersonalloans\\CalcPersonalloans.csproj": {}
+  },
+  "projects": {
+    "D:\\VSCODE\\.NET\\Personalloans\\CalcPersonalloans\\Application\\Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\VSCODE\\.NET\\Personalloans\\CalcPersonalloans\\Application\\Application.csproj",
+        "projectName": "Application",
+        "projectPath": "D:\\VSCODE\\.NET\\Personalloans\\CalcPersonalloans\\Application\\Application.csproj",
+        "packagesPath": "C:\\Users\\ramyc\\.nuget\\packages\\",
+        "outputPath": "D:\\VSCODE\\.NET\\Personalloans\\CalcPersonalloans\\Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ramyc\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\VSCODE\\.NET\\Personalloans\\CalcPersonalloans\\CalcPersonalloans\\CalcPersonalloans.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\VSCODE\\.NET\\Personalloans\\CalcPersonalloans\\CalcPersonalloans\\CalcPersonalloans.csproj",
+        "projectName": "CalcPersonalloans",
+        "projectPath": "D:\\VSCODE\\.NET\\Personalloans\\CalcPersonalloans\\CalcPersonalloans\\CalcPersonalloans.csproj",
+        "packagesPath": "C:\\Users\\ramyc\\.nuget\\packages\\",
+        "outputPath": "D:\\VSCODE\\.NET\\Personalloans\\CalcPersonalloans\\CalcPersonalloans\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ramyc\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\VSCODE\\.NET\\Personalloans\\CalcPersonalloans\\Application\\Application.csproj": {
+                "projectPath": "D:\\VSCODE\\.NET\\Personalloans\\CalcPersonalloans\\Application\\Application.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
